@@ -29,17 +29,6 @@ git add is a **multipurpose** command – you use it to begin tracking *new* fil
 
 Git stages a file **exactly** as it is when you run the git add command.
 
-## .gitignore
-Setting up a .gitignore file before you get going is generally a good idea so you don’t accidentally commit files that you really don’t want in your Git repository.
-
-The rules for the patterns you can put in the .gitignore file are as follows:
-* Blank lines or lines starting with # are ignored.
-* Standard glob patterns work.
-* You can end patterns with a forward slash (/) to specify a directory.
-* You can negate a pattern by starting it with an exclamation point (!).
-
-> Useful example: https://github.com/github/gitignore
-
 ## git-commit
     $ git commit
 you can pass the ```-v``` option to git commit. Doing so also puts the diff of your change in the editor as well as the status
@@ -75,5 +64,17 @@ If you want to rename a file in Git, you can use ```mv``` command:
 ```bash
 $ git mv file_from file_to
 ```
+## .gitignore
+Setting up a .gitignore file before you get going is generally a good idea so you don’t accidentally commit files that you really don’t want in your Git repository.
+
+The rules for the patterns you can put in the .gitignore file are as follows:
+* Blank lines or lines starting with # are ignored.
+* Standard glob patterns work.
+* You can end patterns with a forward slash (/) to specify a directory.
+* You can negate a pattern by starting it with an exclamation point (!).
+
+> Useful example: https://github.com/github/gitignore
+
+---
 
 > Reference: http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
