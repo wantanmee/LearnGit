@@ -20,3 +20,12 @@ ca82a6d - Scott Chacon, 6 years ago : changed the version number
 085bb3b - Scott Chacon, 6 years ago : removed unnecessary test
 a11bef0 - Scott Chacon, 6 years ago : first commit
 ```
+```--graph``` option adds a nice little ASCII graph showing your branch and merge history
+```bash
+$ git log --pretty=format:"%h %s" --graph
+```
+
+> Detailed about git-log: http://git-scm.com/docs/git-log
+> Reference: http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+
+
