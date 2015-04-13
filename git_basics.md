@@ -9,7 +9,8 @@
     $ git add LICENSE
     $ git commit -m 'initial project version'
 ## git-clone
-> Git has a number of different transfer protocols you can use, https://, git://  
+> Git has a number of different transfer protocols you can use, https://, git://
+
     # Cloning an Existing Repository
     $ git clone https://github.com/libgit2/libgit2
     # Cloning an Existing Repository and specify the target directory is called mylibgit
