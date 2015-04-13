@@ -26,6 +26,7 @@ $ git log --pretty=format:"%h %s" --graph
 ```
 
 > Detailed about git-log: http://git-scm.com/docs/git-log
+
 > Reference: http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 
 
