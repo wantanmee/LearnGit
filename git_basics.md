@@ -14,3 +14,6 @@
     $ git clone https://github.com/libgit2/libgit2
     # Cloning an Existing Repository and specify the target directory is called mylibgit
     $ git clone https://github.com/libgit2/libgit2 mylibgit
+
+
+> http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository
