@@ -24,6 +24,9 @@ a11bef0 - Scott Chacon, 6 years ago : first commit
 ```bash
 $ git log --pretty=format:"%h %s" --graph
 ```
+```--grep``` only show commits with a commit message containing the string
+
+```-S``` only show commits adding or removing code matching the string
 
 > Detailed about git-log: http://git-scm.com/docs/git-log
 
