@@ -24,7 +24,8 @@ Changes to be committed:
 $ git reset HEAD CONTRIBUTING.md
 Unstaged changes after reset:
 M	CONTRIBUTING.md
-    ```
+```
+
 > Actually ```git reset HEAD``` only reset the HEAD pointer, the file in your working directory is not touched
 
 ## git-checkout
