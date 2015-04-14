@@ -2,7 +2,7 @@
 ===
 This is one of the few areas in Git where **you may lose some work** if you do it wrong.
 
-# git-commit
+## git-commit
 If you want to try the previous commit again, you can run commit with the ```--amend``` option:
 ```bash
 # it overwrites your previous commit
@@ -11,7 +11,7 @@ $ git add forgotten_file
 $ git commit --amend
 ```
 
-# git-reset
+## git-reset
 Unstaging a staged file.
 ```bash
 $ git status
@@ -27,7 +27,7 @@ M	CONTRIBUTING.md
     ```
 > Actually ```git reset HEAD``` only reset the HEAD pointer, the file in your working directory is not touched
 
-# git-checkout
+## git-checkout
 Unmodifying a modified file.
 
 It’s important to understand that ```git checkout -- [file]``` is a **dangerous** command. Any changes you made to that file are *gone*.
