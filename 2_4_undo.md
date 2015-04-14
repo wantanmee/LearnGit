@@ -13,6 +13,9 @@ $ git commit --amend
 
 ## git-reset
 Unstaging a staged file.
+
+Actually ```git reset HEAD``` only reset the HEAD pointer, the file in your working directory is not touched.
+
 ```bash
 $ git status
 On branch master
@@ -25,8 +28,6 @@ $ git reset HEAD CONTRIBUTING.md
 Unstaged changes after reset:
 M	CONTRIBUTING.md
 ```
-
-> Actually ```git reset HEAD``` only reset the HEAD pointer, the file in your working directory is not touched
 
 ## git-checkout
 Unmodifying a modified file.
