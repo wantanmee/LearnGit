@@ -17,12 +17,9 @@ v1.8.5-rc2
 v1.8.5-rc3
 ```
 - create tags
-    - annotated: stored as full objects in the Git database. Specify ```-a``` to created annotated tag.
+    - annotated: stored as full objects in the Git database. Specify ```-a``` to created annotated tag. To tag a *history* commit, specify the commit checksum (or part of it) at the end of the command:
     ```bash
     $ git tag -a v1.4 -m 'my version 1.4'
-    ```
-    To tag a history commit, specify the commit checksum (or part of it) at the end of the command:
-    ```bash
     $ git tag -a v1.2 9fceb02
     ```
     - lightweight tag:  a pointer to a specific commic, nomarlly for *temporary* tag.
