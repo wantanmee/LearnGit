@@ -33,6 +33,7 @@
 	```
 $ git show v1.4
 	```
+    
 - share tags  
 	By default, the git push command doesn’t transfer tags to remote servers. You will have to explicitly push tags to a shared server with ```git push origin [tagname]```.    
 	```
