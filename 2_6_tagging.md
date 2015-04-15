@@ -2,11 +2,13 @@
 ===
 ## git-tag
 - list tags
+
 	```
  $ git tag
  v0.1
  v1.3
 	```
+    
 	list particular tags:
 	```
  $ git tag -l 'v1.8.5*'
