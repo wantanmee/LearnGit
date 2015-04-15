@@ -22,8 +22,9 @@
     - annotated: stored as full objects in the Git database. Specify ```-a``` to created annotated tag. To tag a *history* commit, specify the commit checksum (or part of it) at the end of the command:
     	```
     $ git tag -a v1.4 -m 'my version 1.4'
-    $ git tag -a v1.2 9fceb02
+    $ git tag -a v1.2 9fceb02    
     	```
+        
     - lightweight tag:  a pointer to a specific commic, nomarlly for *temporary* tag.
     	```
     $ git tag v1.4-lw
