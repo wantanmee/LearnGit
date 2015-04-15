@@ -3,18 +3,18 @@
 ## git-tag
 - list tags
 	```bash
-$ git tag
-v0.1
-v1.3
+ $ git tag
+ v0.1
+ v1.3
 	```
 	list particular tags:
 	```bash
-$ git tag -l 'v1.8.5*'
-v1.8.5
-v1.8.5-rc0
-v1.8.5-rc1
-v1.8.5-rc2
-v1.8.5-rc3
+ $ git tag -l 'v1.8.5*'
+ v1.8.5
+ v1.8.5-rc0
+ v1.8.5-rc1
+ v1.8.5-rc2
+ v1.8.5-rc3
 	```
 - create tags
     - annotated: stored as full objects in the Git database. Specify ```-a``` to created annotated tag. To tag a *history* commit, specify the commit checksum (or part of it) at the end of the command:
