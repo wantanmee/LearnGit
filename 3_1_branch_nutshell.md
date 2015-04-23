@@ -33,3 +33,6 @@ $ git log --oneline --decorate --graph --all
 * 34ac2 fixed bug #1328 - stack overflow under certain conditions
 * 98ca9 initial commit of my project
 ```
+
+---
+> http://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
